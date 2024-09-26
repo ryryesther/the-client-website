@@ -10,7 +10,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com
 
   * [Briefing](#briefing)
   * [Schetsen](#schetsen)
-  * [Bronnen](#bronnen)
+  * [Bouwen](#bouwen)
   * [Licentie](#licentie)
 
 ## Briefing
