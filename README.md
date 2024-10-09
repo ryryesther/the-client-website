@@ -11,7 +11,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com
   * [Briefing](#briefing)
   * [Schetsen](#schetsen)
   * [Bouwen](#bouwen)
-  * [sprint review](#sprintreview)
+  * [Sprint review](#sprintreview)
 
 ## Briefing
 Debriefing ~ Oncollaboration
