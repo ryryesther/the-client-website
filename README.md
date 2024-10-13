@@ -148,4 +148,85 @@ Het bouwen van deze website is een leuke uitdaging voor mij. Naast dat ik nog no
 
 ## Sprint review
 
+### Plan van Aanpak voor de Sprint Review
+
+#### 1. **Doel van de Sprint Review**
+Het hoofddoel van deze Sprint Review is om feedback te verzamelen op de huidige versie van de website die is gebouwd voor artsen uit Nederland en Indonesië, zodat zij toegang hebben tot webinars over kankerbehandelingen. Het doel is om inzicht te bieden in de voortgang en om specifieke feedback te ontvangen over de functionaliteiten, het ontwerp en de gebruikerservaring. 
+
+Doelen:
+- Beoordeling van de look-and-feel van de website, inclusief de subtiele verwijzingen naar de Nederlandse en Indonesische identiteit.
+- Testen van de functionaliteiten zoals de webinar-sectie, zoekfunctie, en de gebruiksvriendelijkheid.
+- Feedback verzamelen over verbeteringen die kunnen worden doorgevoerd in de volgende sprint.
+
+#### 2. **Demonstratie van het Werk**
+
+##### Wat wil ik laten zien?
+1. **Website Structuur**  
+   Laat de opdrachtgever zien hoe de website is opgebouwd, van de header tot de footer. Begin met het tonen van de **hero section**, die verteld waar deze website voor gebouwd is : wereldwijde samenwerking op het gebied van kankerzorg.
+
+   **Codevoorbeeld Hero Section**:
+   ```html
+   <section class="hero">
+       <div class="hero-overlay"></div>
+       <div class="hero-content">
+           <h2 class="hero-title">World-Class Cancer Care & Global Collaboration</h2>
+           <p class="hero-subtitle">Join cutting-edge webinars led by top specialists and collaborate worldwide.</p>
+       </div>
+   </section>
+   ```
+
+2. **Webinars Functionaliteit**  
+   Demonstreer hoe artsen kunnen zoeken naar en filteren op verschillende webinars, zoals "Breast Cancer" en "Lung Cancer". Laat de zoekbalk zien die gebruikers helpt snel webinars te vinden.
+
+   **Codevoorbeeld Webinars-sectie**:
+   ```html
+   <div class="webinar-search">
+       <input type="text" placeholder="Search for a webinar..." id="webinar-search-input">
+   </div>
+
+   <div class="webinar-categories">
+       <button class="category-btn">Breast Cancer</button>
+       <button class="category-btn">Lung Cancer</button>
+   </div>
+   ```
+
+3. **Responsiviteit van de Website**  
+   Laat zien dat de website op verschillende apparaten goed werkt (desktop, tablet, mobiel). Dit kan bijvoorbeeld door een Chrome DevTools-sessie te openen en de verschillende schermformaten te tonen.
+
+   **CSS Voorbeeld voor Responsiviteit**:
+   ```css
+   @media (max-width: 768px) {
+       .hero-title {
+           font-size: 2em;
+       }
+   }
+   ```
+
+##### Volgorde van de Demonstratie:
+1. Begin met een uitleg over de **hero section**, waarin de essentie van de website wordt gepresenteerd.
+2. Laat de **webinar-sectie** zien, inclusief de categorieën en zoekfunctie.
+3. Toon de website op verschillende apparaten om te laten zien dat hij **responsive** is.
+
+#### 3. **Faciliteren van Feedback**
+Tijdens de demonstratie wil ik de opdrachtgever actief betrekken en aanmoedigen om specifieke feedback te geven. Ik zal de volgende vragen stellen:
+
+- Voldoet de visuele uitstraling van de website aan uw verwachtingen, vooral met betrekking tot de subtiele Nederlandse en Indonesische elementen?
+- Vindt u de navigatie en zoekfunctie voor de webinars gebruiksvriendelijk genoeg?
+- Zijn er specifieke elementen die verbeterd of toegevoegd moeten worden?
+- Heeft u feedback over de gebruikerservaring op verschillende apparaten?
+
+#### 4. **Beoordelen van de Feedback**
+Na de Sprint Review zal ik de gegeven feedback beoordelen en deze in concrete taken vertalen voor de volgende sprint. Elke feedback wordt gedocumenteerd in het project board, met specifieke verbeterpunten. Enkele mogelijke feedbackpunten zouden kunnen zijn:
+- Verbeteringen in het design (meer kleurvariatie, betere lay-out van de webinars).
+- Verbeteringen in functionaliteit (zoals filteropties voor de zoekfunctie).
+- Toevoegingen die het gebruiksgemak bevorderen.
+
+#### 5. **Voorbereiding voor de Demo**
+Om goed voorbereid te zijn op de demo:
+- Test ik de website op verschillende apparaten om te laten zien dat de site responsive is.
+- Zorg ik dat alle functionaliteiten (zoals de zoekfunctie en de webinars) zonder problemen werken.
+- Oefen ik de demo met een medestudent of mentor en vraag ik hen om feedback.
+
+Met deze aanpak kan ik een gestructureerde Sprint Review houden en waardevolle feedback ontvangen voor de volgende sprint!
+
 This project is licensed under the terms of the [MIT license](./LICENSE).
