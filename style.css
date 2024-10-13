@@ -48,7 +48,6 @@ nav ul li a:hover {
 .hero {
     position: relative;
     height: 600px;
-    background-image: url('hospital-hero.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
