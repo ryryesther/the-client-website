@@ -53,7 +53,7 @@ Contactpersoon FDND student: vdgraaf.tessa@gmail.com
 
 ## Bouwen
 
-Ik begon met het plannen van de structuur van de website. Omdat de website medische professionals als doelgroep heeft, wilde ik een zeer schone en professionele layout maken, zonder afleidende elementen. Ik koos ervoor om de website in te delen in logische secties zoals een hero-sectie, webinar-lijst, en een footer met nuttige links. 
+Ik begon met het plannen van de structuur van de website. Omdat de website medische professionals als doelgroep heeft, wilde ik een professionele layout maken, zonder afleidende elementen. Ik koos ervoor om de website in te delen in duidelijke secties zoals een hero-sectie, webinar-lijst, en een footer met bepaalde links. 
 
 De eerste stap was het schrijven van de basis HTML voor de verschillende secties:
 
@@ -73,10 +73,10 @@ De eerste stap was het schrijven van de basis HTML voor de verschillende secties
 
 
 ## CSS-uitdagingen
-Tijdens het stylen liep ik tegen enkele uitdagingen aan. Ik wilde een strakke, moderne uitstraling met subtiele kleuren, maar ik merkte dat het moeilijk was om een balans te vinden tussen de zakelijke en toegankelijke uitstraling. Uiteindelijk koos ik voor een blauw kleurenpalet, met accenten van wit en lichte grijstinten.
+Tijdens het stylen liep ik tegen enkele uitdagingen aan. Ik wilde een strakke, moderne uitstraling met subtiele kleuren, maar ik merkte dat het moeilijk was om een balans te vinden tussen de professionele en toegankelijke uitstraling. Uiteindelijk koos ik voor een blauw kleurenpalet, met accenten van wit en lichte grijstinten.
 
-Sticky Header
-Een van de uitdagingen was het maken van een sticky header die blijft hangen terwijl je door de pagina scrolt. Dit is belangrijk omdat de gebruiker altijd makkelijk toegang moet hebben tot de navigatie, ongeacht waar ze zich op de pagina bevinden. Hiervoor gebruikte ik de position: sticky CSS-eigenschap:
+### Sticky Header
+Een van de uitdagingen was het maken van een sticky header die blijft hangen terwijl je door de pagina scrolt , dit was een uitdaging omdat ik nog nooit zoiets hebt gebouwd. Dit is belangrijk omdat de gebruiker altijd makkelijk toegang moet hebben tot de navigatie, ongeacht waar ze zich op de pagina zijn. Hiervoor gebruikte ik de position: sticky CSS-eigenschap:
 
 ```css
 header {
@@ -88,14 +88,13 @@ header {
     padding: 20px 0;
 }
 ```
-Hero Sectie
-Een ander belangrijk onderdeel was de hero-sectie. Ik wilde dat de afbeelding in de achtergrond subtiel was, maar ook de tekst op de voorgrond moest goed leesbaar zijn. Dit loste ik op door een overlay toe te voegen met een transparante achtergrondkleur:
+### Hero Sectie
+Een ander belangrijk onderdeel was de hero-sectie. Ik wilde een subttiele achtergrond , met een tekst op de voorgrond die goed leesbaar was maar niet teveel informatie in een keer gaf , meer een simpele intro .
 
 ```css
 .hero {
     position: relative;
     height: 600px;
-    background-image: url('hospital-hero.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -113,10 +112,10 @@ Een ander belangrijk onderdeel was de hero-sectie. Ik wilde dat de afbeelding in
     z-index: 1;
 }
 ```
-Dit gaf het gewenste effect van een visueel aantrekkelijke maar subtiele achtergrond, zonder dat de tekst verloren ging.
+Dit gaf het gewenste effect van een visueel subtiele achtergrond, en een korte kleine tekst.
 
 Probleem met Dropdown Menu's
-Een andere uitdaging die ik tegenkwam was het maken van een goed werkend dropdown menu voor de navigatie van webinars. Ik ontdekte dat de dropdown niet soepel werkte, vooral op mobiele apparaten. Na wat onderzoek en experimenten met verschillende methoden, kwam ik erachter dat de hover-functie in CSS niet altijd geschikt is voor touchscreens. 
+Een andere uitdaging die ik tegenkwam was het maken van een goed werkend dropdown menu voor de navigatie van webinars. Ik ontdekte dat de dropdown niet soepel werkte, vooral op mobiele apparaten. Ik heb daardoor die functie voor nu verwijdert omdat ik anders in tijdsnood kwam , maar ga hiermee veder in de volgende sprint.
 
 Responsief Ontwerp
 De site moest ook goed werken op verschillende schermformaten, dus heb ik gebruikgemaakt van media queries om de layout aan te passen voor mobiele apparaten. Dit zorgde ervoor dat de website er zowel op desktops als op telefoons goed uitziet:
@@ -133,7 +132,7 @@ De site moest ook goed werken op verschillende schermformaten, dus heb ik gebrui
 }
 ```
 Webinars Zoeken en Filteren
-Om de webinars gebruiksvriendelijk te maken, heb ik een zoekveld toegevoegd waarmee gebruikers naar specifieke webinars kunnen zoeken. Ik wilde ook de mogelijkheid bieden om op categorieën te filteren, zoals 'Borstkanker' of 'Longkanker'. Hiervoor gebruikte ik eenvoudige HTML-knoppen en voegde ik later wat JavaScript-functionaliteit toe om de zoekresultaten te filteren. De basisstructuur zag er als volgt uit:
+Om de webinars gebruiksvriendelijk te maken, heb ik een zoekveld toegevoegd waarmee gebruikers naar specifieke webinars kunnen zoeken. Ik wilde ook de mogelijkheid bieden om op categorieën te filteren, zoals 'Borstkanker' of 'Longkanker'. Hiervoor gebruikte ik eenvoudige HTML-knoppen en ga ik later wat JavaScript-functionaliteit toevoegen om de zoekresultaten te filteren. De basisstructuur zag er als volgt uit:
 
 ```html
 <div class="webinar-categories">
@@ -143,10 +142,9 @@ Om de webinars gebruiksvriendelijk te maken, heb ik een zoekveld toegevoegd waar
 </div>
 ```
 
-Later voeg ik nog een JavaScript-filterfunctie toe om de webinars op categorie te filteren.
 
 Conclusie
-Het bouwen van deze website was een leerzaam proces. Ik kwam verschillende uitdagingen tegen, maar door geduldig te experimenteren met verschillende oplossingen, heb ik een mooie en functionele website kunnen opleveren. Het gebruik van een heldere visuele hiërarchie, duidelijke navigatie, en het toepassen van goede responsieve technieken waren cruciaal voor het eindresultaat.
+Het bouwen van deze website is een leuke uitdaging voor mij. Naast dat ik nog nooit zo een website heb gebouwd vind in de opdracht ook heel leuk en belangrijk, ik ben nog lang niet klaar met bouwen maar ben al trots op wat ik tot nu toe heb gemaakt.
 
 ## Sprint review
 
