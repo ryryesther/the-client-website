@@ -122,7 +122,6 @@ Responsief Ontwerp
 De site moest ook goed werken op verschillende schermformaten, dus heb ik gebruikgemaakt van media queries om de layout aan te passen voor mobiele apparaten. Dit zorgde ervoor dat de website er zowel op desktops als op telefoons goed uitziet:
 
 ```css
-Code kopiëren
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
