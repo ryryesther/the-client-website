@@ -1,75 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webinar Page (In Progress)</title>
+    <title>Antoni van Leeuwenhoek Hospital - Webinars & Collaborations</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
 </head>
+
 <body>
+    <!-- Sticky Header -->
     <header>
         <div class="header-content">
-            <h1>Antoni van Leeuwenhoek</h1>
+            <h1>Antoni van Leeuwenhoek Hospital</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Webinars</a></li>
-                    <li><a href="#">Contourings</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><button>Start Searching (WIP)</button></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Webinars</a>
+                        <ul class="dropdown">
+                            <li><a href="#">countourings</a></li>
+                            <li><a href="#">contact</a></li>
+        
+                        </ul>
+                    </li>
+                    
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">World-Class Cancer Care & Global Collaboration</h2>
+            <p class="hero-subtitle">Join cutting-edge webinars led by top specialists and collaborate worldwide.</p>
+            
+        </div>
+    </section>
+
+    
     <main>
-        <section class="search-feature">
-            <input type="text" placeholder="Search (Coming Soon)">
-        </section>
-
-        <section class="featured">
-            <h2>Featured Webinar (In Progress)</h2>
-            <div class="featured-item">
-                <div class="img-placeholder"></div>
-                <div class="featured-info">
-                    <h3>Re-irradiation in Cervical Cancer</h3>
-                    <p>This section will describe the featured webinar once content is ready.</p>
-                    <button>See More (Coming Soon)</button>
-                </div>
-            </div>
-        </section>
-
         <section class="webinars">
-            <h2>Newest Webinars (Work in Progress)</h2>
+            <h2>Discover Webinars</h2>
+            <div class="webinar-search">
+                <input type="text" placeholder="Search for a webinar..." id="webinar-search-input">
+            </div>
+
             <div class="webinar-categories">
-                <button>All</button>
-                <button>Breast</button>
-                <button>Gynaecology</button>
-                <button>Lung</button>
+                <button class="category-btn">All</button>
+                <button class="category-btn">Breast Cancer</button>
+                <button class="category-btn">Lung Cancer</button>
+                <button class="category-btn">Gynaecology</button>
             </div>
 
             <div class="webinar-list">
-            
                 <div class="webinar-card">
-                    <div class="img-placeholder"></div>
-                    <h3>Webinar Title Placeholder</h3>
-                    <button>Watch (Not Ready)</button>
+                    <img src="webinar1-placeholder.jpg" alt="Breast Cancer" class="webinar-image">
+                    <div class="webinar-content">
+                        <h3>Breast Cancer - Latest Treatment Options</h3>
+                        <p>Join experts to explore new breast cancer treatment techniques.</p>
+                        <button class="cta-btn">Watch Now</button>
+                    </div>
+                </div>
+
+                <div class="webinar-card">
+                    <img src="webinar2-placeholder.jpg" alt="Lung Cancer" class="webinar-image">
+                    <div class="webinar-content">
+                        <h3>Lung Cancer Surgery: New Approaches</h3>
+                        <p>Discover innovative surgical procedures in lung cancer treatment.</p>
+                        <button class="cta-btn">Watch Now</button>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="contourings">
-            <h2>Newest Contourings (In Progress)</h2>
-            <div class="contouring-list">
-                <div class="contouring-card">
-                    <div class="img-placeholder"></div>
-                    <p>IMA 4-31 (Work in Progress)</p>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="#">Our Mission</a></li>
+                        <li><a href="#">Leadership</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">News & Press</a></li>
+                    </ul>
                 </div>
+
+                
+
+                
+
+                
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Antoni van Leeuwenhoek Hospital - All Rights Reserved</p>
             </div>
-        </section>
+        </footer>
     </main>
-
-    <footer>
-        <p>&copy; 2024 - Antoni van Leeuwenhoek (Under Construction)</p>
-    </footer>
 </body>
+
 </html>
