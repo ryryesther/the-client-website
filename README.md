@@ -50,7 +50,12 @@ Contactpersoon FDND student: vdgraaf.tessa@gmail.com
 
 ## Schetsen
 
+### Wire frame
 ![unnamed](https://github.com/user-attachments/assets/a2eab4ca-d748-4e93-acb4-f856ae3c2823)
+
+
+### Schetsen opdracht gever
+<img width="560" alt="Scherm­afbeelding 2024-10-27 om 23 27 32" src="https://github.com/user-attachments/assets/1dc624c0-ac3a-4dce-8b64-3a4d3d515c06">
 
 
 ## Bouwen
