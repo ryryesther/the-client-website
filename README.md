@@ -210,31 +210,30 @@ Doelen:
    ```
 
 
-##### Volgorde van de Demonstratie:
+##### Volgorde van de Sprint review:
 1. Begin met een uitleg over de **hero section**, waarin de essentie van de website wordt gepresenteerd.
 2. Laat de **webinar-sectie** zien, inclusief de categorieën en zoekfunctie.
 3. Toon de website op verschillende apparaten om te laten zien dat hij **responsive** is.
 
-#### 3. **Faciliteren van Feedback**
-Tijdens de demonstratie wil ik de opdrachtgever actief betrekken en aanmoedigen om specifieke feedback te geven. Ik zal de volgende vragen stellen:
+#### 3. **krijgen van Feedback**
+Tijdens de sprint review wil ik de opdrachtgever aanmoedige om echt over alles feedback te geven. Ik zal de volgende vragen stellen:
 
-- Voldoet de visuele uitstraling van de website aan uw verwachtingen, vooral met betrekking tot de subtiele Nederlandse en Indonesische elementen?
 - Vindt u de navigatie en zoekfunctie voor de webinars gebruiksvriendelijk genoeg?
 - Zijn er specifieke elementen die verbeterd of toegevoegd moeten worden?
 - Heeft u feedback over de gebruikerservaring op verschillende apparaten?
 
 #### 4. **Beoordelen van de Feedback**
-Na de Sprint Review zal ik de gegeven feedback beoordelen en deze in concrete taken vertalen voor de volgende sprint. Elke feedback wordt gedocumenteerd in het project board, met specifieke verbeterpunten. Enkele mogelijke feedbackpunten zouden kunnen zijn:
-- Verbeteringen in het design (meer kleurvariatie, betere lay-out van de webinars).
+Na de Sprint Review zal ik de gegeven feedback beoordelen en deze als taken voor mezelf op stellen  voor de volgende sprint. Enkele mogelijke feedbackpunten zouden kunnen zijn:
+- Verbeteringen in het design (meer kleur, betere lay-out van de webinars).
 - Verbeteringen in functionaliteit (zoals filteropties voor de zoekfunctie).
 - Toevoegingen die het gebruiksgemak bevorderen.
 
-#### 5. **Voorbereiding voor de Demo**
-Om goed voorbereid te zijn op de demo:
+#### 5. **Voorbereiding voor de sprint review**
+Om goed voorbereid te zijn op de sprint review:
 - Test ik de website op verschillende apparaten om te laten zien dat de site responsive is.
 - Zorg ik dat alle functionaliteiten (zoals de zoekfunctie en de webinars) zonder problemen werken.
-- Oefen ik de demo met een medestudent of mentor en vraag ik hen om feedback.
+- Oefen ik het prototype met een medestudent of mentor en vraag ik hen om feedback.
 
-Met deze aanpak kan ik een gestructureerde Sprint Review houden en waardevolle feedback ontvangen voor de volgende sprint!
+Met deze aanpak kan ik een gestructureerde Sprint Review houden en goedefeedback ontvangen voor de volgende sprint!
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
