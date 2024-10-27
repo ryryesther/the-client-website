@@ -49,7 +49,9 @@ Contactpersoon FDND student: vdgraaf.tessa@gmail.com
 
 
 ## Schetsen
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+![unnamed](https://github.com/user-attachments/assets/a2eab4ca-d748-4e93-acb4-f856ae3c2823)
+
 
 ## Bouwen
 
