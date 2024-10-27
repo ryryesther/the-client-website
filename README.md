@@ -11,7 +11,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS.md](https://github.com
   * [Briefing](#briefing)
   * [Schetsen](#schetsen)
   * [Bouwen](#bouwen)
-  * [Sprint review](#sprintreview)
+  * [Sprint review](#Sprintreview)
 
 ## Briefing
 Debriefing ~ Oncollaboration
@@ -201,6 +201,7 @@ Doelen:
        }
    }
    ```
+
 
 ##### Volgorde van de Demonstratie:
 1. Begin met een uitleg over de **hero section**, waarin de essentie van de website wordt gepresenteerd.
